@@ -1,1 +1,15 @@
+:root {
+    --bg-dark: #050505;
+    --glass: rgba(255, 255, 255, 0.05);
+    --accent: #7c3aed;
+}
+body { background: var(--bg-dark); color: #fff; font-family: 'Inter', sans-serif; margin: 0; }
+.glass-card {
+    background: var(--glass);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+}
+.btn.primary { background: var(--accent); color: white; padding: 12px 24px; border-radius: 8px; }
 
