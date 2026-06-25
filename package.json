@@ -1,1 +1,10 @@
 
+{
+  "name": "finsernal-ai-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio of Finsernal AI Founder",
+  "scripts": {
+    "start": "echo 'Project running statically'"
+  },
+  "author": "Sandeep Shende"
+}
